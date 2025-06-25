@@ -1,0 +1,46 @@
+{
+    "Error": {
+      "description": "<p>Nous avons malheureusement rencontré une erreur.</p><p>Vous pouvez essayer de <retry>recharger la page</retry> que vous visitiez.</p>",
+      "title": "Quelque chose s'est mal passé !"
+    },
+    "IndexPage": {
+      "description": "Ceci est un exemple de base qui illustre l'utilisation de <code>next-intl</code> avec le routeur d'applications Next.js. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change.",
+      "title": "Exemple next-intl"
+    },
+    "LocaleLayout": {
+      "title": "Exemple next-intl"
+    },
+    "LocaleSwitcher": {
+      "label": "Changer de langue",
+      "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {🇫🇷 Français} other {Inconnu}}"
+    },
+    "Manifest": {
+      "name": "Exemple next-intl"
+    },
+    "Navigation": {
+      "home": "Accueil",
+      "pathnames": "Noms de chemin"
+    },
+    "NotFoundPage": {
+      "description": "Veuillez vérifier la barre d'adresse du navigateur ou utiliser la navigation pour accéder à une page connue.",
+      "title": "Page non trouvée"
+    },
+    "PageLayout": {
+      "links": {
+        "docs": {
+          "description": "Apprenez-en plus sur next-intl dans la documentation officielle.",
+          "href": "https://next-intl.dev",
+          "title": "Documentation"
+        },
+        "source": {
+          "description": "Parcourez le code source de cet exemple sur GitHub.",
+          "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+          "title": "Code source"
+        }
+      }
+    },
+    "PathnamesPage": {
+      "description": "<p>Les noms de chemin sont également internationalisés.</p><p>Si vous utilisez la langue par défaut, l'anglais, vous verrez <code>/en/pathnames</code> dans la barre d'adresse du navigateur sur cette page.</p><p>Si vous changez la locale en français, l'URL est localisée en conséquence (<code>/fr/noms-de-chemin</code>).</p>",
+      "title": "Noms de chemin"
+    }
+  }
