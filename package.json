@@ -1,6 +1,7 @@
 {
   "name": "example-app-router",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbo",
     "lint": "eslint src && tsc && prettier src --check",
@@ -11,6 +12,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@directus/sdk": "^19.1.0",
     "clsx": "^2.1.1",
     "next": "^15.3.0",
     "next-intl": "^4.0.0",
@@ -34,6 +36,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8.5.3",
     "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
   "prettier": {

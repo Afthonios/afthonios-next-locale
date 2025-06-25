@@ -11,6 +11,8 @@ export default function Navigation() {
         <div>
           <NavigationLink href="/">{t('home')}</NavigationLink>
           <NavigationLink href="/pathnames">{t('pathnames')}</NavigationLink>
+          {/* This link now correctly uses the canonical path */}
+          <NavigationLink href="/free-course">{t('freeCourse')}</NavigationLink>
         </div>
         <LocaleSwitcher />
       </nav>

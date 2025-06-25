@@ -12,14 +12,15 @@
     },
     "LocaleSwitcher": {
       "label": "Changer de langue",
-      "locale": "{locale, select, en {🇺🇸 English} fr {🇫🇷 Français} other {Inconnu}}"
+      "locale": "{locale, select, en {🇺🇸 Anglais} fr {🇫🇷 Français} other {Inconnu}}"
     },
     "Manifest": {
       "name": "Exemple next-intl"
     },
     "Navigation": {
       "home": "Accueil",
-      "pathnames": "Noms de chemin"
+      "pathnames": "Noms de chemin",
+      "freeCourse": "Cours Gratuit"
     },
     "NotFoundPage": {
       "description": "Veuillez vérifier la barre d'adresse du navigateur ou utiliser la navigation pour accéder à une page connue.",
@@ -44,3 +45,4 @@
       "title": "Noms de chemin"
     }
   }
+  
